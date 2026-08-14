@@ -225,8 +225,8 @@ function toggleVid(){
     hv.play().catch(function(){});
     // Re-show a small pause button after video starts
     setTimeout(function(){
-      if(ov){ov.style.display='block';ov.style.opacity='1';
-        ov.innerHTML='<div style='display:flex;justify-content:center'><div style='border:2px solid rgba(240,236,224,.7);border-radius:20px;padding:10px 24px;font-size:14px;color:#f0ece0;background:rgba(0,0,0,.5);backdrop-filter:blur(6px)'>❚❚ Тап — пауза</div></div>'}
+      if(ov){ov.style.display="block";ov.style.opacity="1";
+        ov.innerHTML="<div style=\"display:flex;justify-content:center\"><div style=\"border:2px solid rgba(240,236,224,.7);border-radius:20px;padding:10px 24px;font-size:14px;color:#f0ece0;background:rgba(0,0,0,.5);backdrop-filter:blur(6px)\">❚❚ Тап — пауза</div></div>"}
     },1500);
     return;
   }
